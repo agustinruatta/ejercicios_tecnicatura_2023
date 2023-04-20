@@ -3,29 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Conversor unidades</title>
+    <script src="conversor_unidades.js" defer></script>
 </head>
 <body>
 <input type="number" id="cantidad">
 <select name="unidad-origen" id="unidad-origen">
-  <option value="celsius">Celsius</option>
-  <option value="fahrenheit">Fahrenheit</option>
-  <option value="metros">Metros</option>
-  <option value="pies">Pies</option>
-  <option value="libras">Libras</option>
-  <option value="kilogramos">Kilogramos</option>
+    <option value="celsius">Celsius</option>
+    <option value="fahrenheit">Fahrenheit</option>
+    <option value="metros">Metros</option>
+    <option value="pies">Pies</option>
+    <option value="libras">Libras</option>
+    <option value="kilogramos">Kilogramos</option>
 </select>
 <select name="unidad-destino" id="unidad-destino">
-  <option value="celsius">Celsius</option>
-  <option value="fahrenheit">Fahrenheit</option>
-  <option value="metros">Metros</option>
-  <option value="pies">Pies</option>
-  <option value="libras">Libras</option>
-  <option value="kilogramos">Kilogramos</option>
+    <option value="celsius">Celsius</option>
+    <option value="fahrenheit">Fahrenheit</option>
+    <option value="metros">Metros</option>
+    <option value="pies">Pies</option>
+    <option value="libras">Libras</option>
+    <option value="kilogramos">Kilogramos</option>
 </select>
-<button>Convertir</button>
+<button id="boton-convertir">Convertir</button>
 
 <div>
-  <p>4 libras es 2 kilogramos</p>
+    <p id="resultado"></p>
 </div>
 </body>
 </html>
