@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="agenda_tareas.js" defer></script>
 </head>
 <body>
 <form>
     <label>
         Nombre:
-        <input type="text" id="nombre">
+        <input type="text" id="nombre" required>
     </label>
     <label>
         Descripción:
         <input type="text" id="descripcion">
     </label>
-    <input type="submit" id="botonAgregarTarea" value="Agregar tarea">
+    <input type="submit" id="boton-agregar-tarea" value="Agregar tarea">
 </form>
 <h2>Lista de tareas:</h2>
 <ul id="lista-de-tareas">
